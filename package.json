@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next lint && next build && next export && next-export-optimize-images",
-    "start": "npm run build && npx serve out",
+    "start": "npm run build && npx -y serve out",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "postbuild": "next-sitemap",
@@ -15,6 +15,7 @@
   "dependencies": {
     "next": "12.2.3",
     "next-seo": "^5.5.0",
+    "next-sitemap": "^3.1.15",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "ui-library": "file:lib/leo-landing-page-ui-library-0.0.0.tgz"
@@ -35,6 +36,7 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unicorn": "^43.0.2",
+    "husky": "^8.0.1",
     "next-export-optimize-images": "^1.5.3",
     "typescript": "4.7.4"
   }
