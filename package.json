@@ -9,7 +9,8 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "postbuild": "next-sitemap",
-    "update-ui-library": "( cd ../leo-landing-page-ui-library ; npm run build ; npm pack ) && cp ../leo-landing-page-ui-library/leo-landing-page-ui-library-*.tgz ./lib && rm ../leo-landing-page-ui-library/leo-landing-page-ui-library-*.tgz && rm -rvf .next && npm install ui-library --force"
+    "update-ui-library": "( cd ../leo-landing-page-ui-library ; npm run build ; npm pack ) && cp ../leo-landing-page-ui-library/leo-landing-page-ui-library-*.tgz ./lib && rm ../leo-landing-page-ui-library/leo-landing-page-ui-library-*.tgz && rm -rvf .next && npm install ui-library --force",
+    "update-dependencies": "npx -y npm-check-updates -u"
   },
   "dependencies": {
     "next": "12.2.3",
