@@ -8,13 +8,15 @@
     "start": "npm run build && npx serve out",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "update-ui-library": "( cd ../leo-landing-page-ui-library ; npm run build ; npm pack ) && cp ../leo-landing-page-ui-library/leo-landing-page-ui-library-*.tgz ./lib && rm ../leo-landing-page-ui-library/leo-landing-page-ui-library-*.tgz && rm -rvf .next && npm install ui-library --force"
   },
   "dependencies": {
     "next": "12.2.3",
     "next-seo": "^5.5.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "ui-library": "file:lib/leo-landing-page-ui-library-0.0.0.tgz"
   },
   "devDependencies": {
     "@types/node": "18.6.2",
