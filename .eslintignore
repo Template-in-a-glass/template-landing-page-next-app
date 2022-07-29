@@ -4,3 +4,4 @@ dist
 next.config.js
 next-sitemap.config.js
 next-env.d.ts
+out
