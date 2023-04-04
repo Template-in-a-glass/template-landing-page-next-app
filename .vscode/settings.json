@@ -1,5 +1,5 @@
 {
-  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.tsdk": "node_modules/typescript/lib",
   "files.autoSave": "afterDelay",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
@@ -23,5 +23,6 @@
     "strings": true
   },
   "editor.detectIndentation": false,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
