@@ -8,6 +8,8 @@
     "sonarsource.sonarlint-vscode",
     "usernamehw.errorlens",
     "lacroixdavid1.vscode-format-context-menu",
-    "henriiik.vscode-sort"
+    "henriiik.vscode-sort",
+    "github.copilot",
+    "github.copilot-labs"
   ]
 }
