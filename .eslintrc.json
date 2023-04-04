@@ -7,9 +7,7 @@
     "plugin:react/recommended",
     "airbnb",
     "plugin:@typescript-eslint/recommended",
-    "plugin:etc/recommended",
-    "plugin:@next/next/recommended",
-    "plugin:unicorn/recommended"
+    "plugin:@next/next/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -23,8 +21,7 @@
   "plugins": [
     "react",
     "@typescript-eslint",
-    "react-hooks",
-    "unicorn"
+    "react-hooks"
   ],
   "rules": {
     "no-use-before-define": "off",
@@ -104,14 +101,9 @@
         "minKeys": 3
       }
     ],
-    "etc/prefer-interface": "error",
-    "unicorn/prevent-abbreviations": [
+    "@next/next/no-html-link-for-pages": [
       "error",
-      {
-        "allowList": {
-          "props": true
-        }
-      }
+      "src/app/"
     ]
   },
   "settings": {
