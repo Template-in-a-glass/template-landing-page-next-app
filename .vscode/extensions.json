@@ -9,7 +9,10 @@
     "usernamehw.errorlens",
     "lacroixdavid1.vscode-format-context-menu",
     "henriiik.vscode-sort",
-    "github.copilot",
-    "github.copilot-labs"
+    "github.copilot-labs",
+    "kisstkondoros.vscode-codemetrics",
+    "vivaxy.vscode-conventional-commits",
+    "mikestead.dotenv",
+    "github.copilot"
   ]
 }
